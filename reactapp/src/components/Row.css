@@ -1,0 +1,15 @@
+h2 {
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.closeButton {
+  width: 30px;
+  margin-right: 5px;
+  padding: auto;
+}
+.divButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

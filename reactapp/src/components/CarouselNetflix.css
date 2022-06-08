@@ -1,0 +1,19 @@
+.image-item {
+  height: 22vh;
+  margin: 2px;
+  transition: transform 300ms ease 100ms;
+}
+.classContainer {
+  height: 25vh;
+  padding-left: 30px;
+}
+.classContainer:hover .image-item {
+  transform: translateX(-15%);
+}
+
+.image-item:hover ~ .image-item {
+  transform: translateX(15%);
+}
+.image-item:hover {
+  transform: scale(1.09) !important;
+}
